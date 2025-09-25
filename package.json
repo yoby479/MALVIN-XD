@@ -1,8 +1,9 @@
 {
   "name": "MALVIN-XD",
   "version": "2.0.0",
-  "description": "One of the World's best WhatsApp Bot Created By Malvin King",
+  "description": "The Best WhatsApp Bot Created By Malvin King",
   "main": "index.js",
+    "type": "module",
   "engines": {
     "node": ">=20.x",
     "npm": ">=10.x"
@@ -13,7 +14,7 @@
     "restart": "pm2 restart MALVIN-XD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:XdKing2/Malvin-baileys",
+    "@whiskeysockets/baileys": "github:xdking0/Malvin-Baileys",
     "@google/genai": "^1.8.0",
     "@google/generative-ai": "^0.24.1",
     "@vitalets/google-translate-api": "^9.0.0",
@@ -33,9 +34,9 @@
     "moment-timezone": "^0.6.0",
     "cheerio": "^1.0.0-rc.12",
     "crypto-digest-sync": "^1.0.0",
-    "crypto-js": "~> 3.2.1",
+    "crypto-js": "latest",
     "dotenv": "^16.0.0",
-    "express": "~> 3.11.0",
+    "express": "latest",
     "ffmpeg": "^0.0.4",
     "file-type": "^16.5.3",
     "file_size_url": "1.0.4",
